@@ -10,9 +10,37 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
   <body>
-    
-    <form class="" action="index.html" method="post">
+    <div class="container">
+      <h1 class="display1">Generic Movie Theater</h1>
+      <form>
+        <label for="movieSelector">Please Select your movie: </label>
+        <select class="movieSelector" name="movieSelector">
+          <option value=""></option>
+          <option value="Spiderman">Spiderman</option>
+          <option value="Bohemian Rhapsody">Bohemian Rhapsody</option>
+          <option value="Dune">Dune</option>
+          <option value="A Dogs Way Home">A Dogs Way Home</option>
+        </select>
+        <select class="timeSelector" name="">
 
-    </form>
+        </select>
+        <select class="ageSelector" name="">
+          <option value="Child">Child</option>
+          <option value="Adult">Adult</option>
+          <option value="Senior">Senior</option>
+        </select>
+        <button type="submit" class="btn btn-primary"name="button">Select</button>
+
+      </form>
+
+      <p>Receipt</p>
+      <p><span class="title"></span></p>
+      <p><span class="showtime"></span></p>
+      <p><span class="rating"></span></p>
+      <p><span class="ticketPrice"></span></p>
+
+
+
+    </div>
   </body>
 </html>
